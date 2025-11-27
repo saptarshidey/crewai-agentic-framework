@@ -3,6 +3,10 @@ simple_agent/.env
 simple_agent/__pycache__/
 simple_agent/.DS_Store
 
+news_agent/.env
+news_agent/__pycache__/
+news_agent/.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
