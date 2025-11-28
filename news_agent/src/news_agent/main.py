@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 def run():
     inputs = {
         'topic': 'BITS Pilani',
-        'date': datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+        'date': datetime.now().strftime('%Y%m%d%H%M%S')
     }
 
     try:

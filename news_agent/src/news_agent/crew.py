@@ -43,7 +43,7 @@ class NewsAgent():
     def file_writer(self) -> Agent:
         return Agent(
             config=self.agents_config['file_writer'],
-            tools=[FileWriterTool(directory='./news/', overwrite=True)],
+            tools=[FileWriterTool(overwrite=True)],
             verbose=True
         )
 
