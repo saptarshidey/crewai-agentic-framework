@@ -7,6 +7,10 @@ news_agent/.env
 news_agent/__pycache__/
 news_agent/.DS_Store
 
+poem_flow/.env
+poem_flow/__pycache__/
+poem_flow/.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
